@@ -17,18 +17,18 @@ console.log(totalPrice)
 //            - mostro il prezzo.
 if (age < 18) {
 
-    const discount20 = (totalPrice)
+    const discountTwenty = (totalPrice / 100) * 80
     console.log(`Hai meno di 18 anni
-        il prezzo scontato del 20% è di: ${(discount20.toFixed(2))} €`)
+        il prezzo scontato del 20% è di: ${(discountTwenty.toFixed(2))} €`)
 
 // **Altrimenti se** l'età è maggiore di 65 anni:
 //            - applico il 40% di sconto;
 //            - mostro il prezzo.
 } else if (age >= 65) {
 
-    const discount40 = ((totalPrice /100) * 40)
+    const discountForty = ((totalPrice /100) * 60)
     console.log(`Hai più di 65 anni
-        Il prezzo scontato del 40% è di: ${discount40.toFixed(2)} €`)
+        Il prezzo scontato del 40% è di: ${discountForty.toFixed(2)} €`)
 
 // **Altrimenti**:
 //             - mostro il prezzo.
