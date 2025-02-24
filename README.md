@@ -13,5 +13,30 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 
 Prima di tutto, nel file README, indicare tutti i passaggi utili allo svolgimento del programma. Soltanto dopo scrivere la soluzione in JS.
 
+---
+
 ## Passaggi
 
+- Chiedo all'utente il *numero di km* e lo salvo in una variabile
+
+- Chiedo all'utente l'*età* e la salvo in una variabile
+
+- Calcolo il *prezzo del biglietto* e lo slavo il una variabile
+
+- Applico solo due cifre decimali al *prezzo del biglietto*
+
+- **Se** l'età è minore di 18 anni:
+
+    - applico il 20% di sconto;
+    - mostro il prezzo.
+
+- **Altrimenti se** l'età è maggiore di 65 anni:
+
+    - applico il 40% di sconto;
+    - mostro il prezzo.
+
+- **Altrimenti**:
+
+    - mostro il prezzo.
+
+---
