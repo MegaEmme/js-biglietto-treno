@@ -20,6 +20,9 @@ if (age < 18) {
     const discountTwenty = (totalPrice / 100) * 80
     console.log(`Hai meno di 18 anni
         il prezzo scontato del 20% è di: ${(discountTwenty.toFixed(2))} €`)
+    alert(`Hai meno di 18 anni
+        
+        - Il prezzo scontato del 20% è di: ${discountTwenty.toFixed(2)} €`)
 
 // **Altrimenti se** l'età è maggiore di 65 anni:
 //            - applico il 40% di sconto;
@@ -29,12 +32,16 @@ if (age < 18) {
     const discountForty = ((totalPrice /100) * 60)
     console.log(`Hai più di 65 anni
         Il prezzo scontato del 40% è di: ${discountForty.toFixed(2)} €`)
+    alert(`Hai più di 65 anni:
+
+        - Il prezzo scontato del 40% è di: ${discountForty.toFixed(2)} €`)
 
 // **Altrimenti**:
 //             - mostro il prezzo.
 } else {
 
     console.log(`Il prezzo del biglietto è di: ${totalPrice.toFixed(2)} €`)
+    alert(`Il prezzo del biglietto è di: ${totalPrice.toFixed(2)} €`)
     
 }
 
