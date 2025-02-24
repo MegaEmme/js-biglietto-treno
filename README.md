@@ -21,22 +21,23 @@ Prima di tutto, nel file README, indicare tutti i passaggi utili allo svolgiment
 
 - Chiedo all'utente l'*età* e la salvo in una variabile
 
-- Calcolo il *prezzo del biglietto* e lo slavo il una variabile
-
-- Applico solo due cifre decimali al *prezzo del biglietto*
+- Calcolo il *prezzo del biglietto* e lo salvo il una variabile
 
 - **Se** l'età è minore di 18 anni:
 
     - applico il 20% di sconto;
+    - Applico solo due cifre decimali al *prezzo del biglietto*
     - mostro il prezzo.
 
 - **Altrimenti se** l'età è maggiore di 65 anni:
 
     - applico il 40% di sconto;
+    - Applico solo due cifre decimali al *prezzo del biglietto*
     - mostro il prezzo.
 
 - **Altrimenti**:
 
+    - Applico solo due cifre decimali al *prezzo del biglietto*
     - mostro il prezzo.
 
 ---
