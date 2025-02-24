@@ -6,6 +6,36 @@ console.log(parseInt(kmDistance))
 const age = prompt('Inserisci la tua età');
 console.log(parseInt(age))
 
-// Calcolo il *prezzo del biglietto* e lo slavo il una variabile
+
+// Calcolo il *prezzo del biglietto* e lo salvo il una variabile
 const totalPrice = (kmDistance * 0.21)
 console.log(totalPrice)
+
+
+// **Se** l'età è minore di 18 anni:
+//            - applico il 20% di sconto;
+//            - mostro il prezzo.
+if (age < 18) {
+
+    const discount20 = (totalPrice)
+    console.log(`Hai meno di 18 anni
+        il prezzo scontato del 20% è di: ${(discount20.toFixed(2))} €`)
+
+// **Altrimenti se** l'età è maggiore di 65 anni:
+//            - applico il 40% di sconto;
+//            - mostro il prezzo.
+} else if (age >= 65) {
+
+    const discount40 = ((totalPrice /100) * 40)
+    console.log(`Hai più di 65 anni
+        Il prezzo scontato del 40% è di: ${discount40.toFixed(2)} €`)
+
+// **Altrimenti**:
+//             - mostro il prezzo.
+} else {
+
+    console.log(`Il prezzo del biglietto è di: ${totalPrice.toFixed(2)} €`)
+    
+}
+
+
